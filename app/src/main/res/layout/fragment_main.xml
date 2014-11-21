@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView android:id="@+id/deviceList" android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_weight="3">
+        </ListView>
+
+        <ListView android:id="@+id/contentList" android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_weight="1">
+        </ListView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/back_floder"
+        android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        android:background="#99000000" />
+
+</RelativeLayout>
